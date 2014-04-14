@@ -1,0 +1,25 @@
+{
+  "name": "plug_device",
+  "version": "0.0.0",
+  "description": "Device app for Plug",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Hughes",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.6.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-coffee": "^1.4.1",
+    "gulp-include": "^0.2.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.2.1"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "rasp2c": "0.0.3",
+    "socket.io-client": "^0.9.16"
+  }
+}

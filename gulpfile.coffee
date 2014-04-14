@@ -1,0 +1,6 @@
+gulp       = require 'gulp'
+coffee     = require 'gulp-coffee'
+coffeelint = require 'gulp-coffeelint'
+gutil      = require 'gulp-util'
+uglify     = require 'gulp-uglify'
+clean      = require 'gulp-clean'
